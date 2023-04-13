@@ -1,4 +1,4 @@
-<mxfile host="Electron" modified="2023-04-13T20:11:11.426Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.1.2 Chrome/106.0.5249.199 Electron/21.4.3 Safari/537.36" etag="xQVraJ2EikW1drfc9w8C" version="21.1.2" type="device">
+<mxfile host="Electron" modified="2023-04-13T20:36:03.683Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.1.2 Chrome/106.0.5249.199 Electron/21.4.3 Safari/537.36" etag="hil1WcIyWxC9H7PPj7sp" version="21.1.2" type="device">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2103" dy="606" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -95,6 +95,16 @@
         <mxCell id="51EHA9I_869r_hzcq9P--28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="51EHA9I_869r_hzcq9P--21" target="51EHA9I_869r_hzcq9P--27" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="WMGORiAJzF0cgRbpbtdx-0" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="51EHA9I_869r_hzcq9P--21" target="51EHA9I_869r_hzcq9P--22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WMGORiAJzF0cgRbpbtdx-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="51EHA9I_869r_hzcq9P--21" target="WMGORiAJzF0cgRbpbtdx-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-593" y="763" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="51EHA9I_869r_hzcq9P--21" value="UserDetailService" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-703" y="662" width="120" height="60" as="geometry" />
         </mxCell>
@@ -144,6 +154,9 @@
         </mxCell>
         <mxCell id="51EHA9I_869r_hzcq9P--44" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-406.5" y="936" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WMGORiAJzF0cgRbpbtdx-1" value="JpaUserDetailsService" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-508" y="718" width="166" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

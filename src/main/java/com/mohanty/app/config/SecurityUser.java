@@ -6,6 +6,7 @@ import java.util.List;
 
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.security.crypto.password.PasswordEncoder;
 
 import com.mohanty.app.entity.Users;
 
@@ -18,14 +19,15 @@ public class SecurityUser implements UserDetails {
 	
 	private final Users user;
 	
-	public SecurityUser(Users user) {
+	public SecurityUser(Users user, PasswordEncoder passwordEncoder) {
+		user.setPassword( passwordEncoder.encode(user.getPassword()));
 		this.user = user;
 	}
 
 	@Override
 	public Collection<? extends GrantedAuthority> getAuthorities() {
 		// TODO Auto-generated method stub
-		GrantedAuthority authority = () -> "user";
+		GrantedAuthority authority = () -> "USER";
 		List<GrantedAuthority> grantedRoles = new ArrayList<>();
 		grantedRoles.add(authority);
 		return grantedRoles;

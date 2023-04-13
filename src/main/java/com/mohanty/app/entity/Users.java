@@ -16,7 +16,6 @@ import lombok.ToString;
 @Table(name = "users")
 @NoArgsConstructor
 @Getter
-@Setter
 @ToString
 public class Users {
 
@@ -33,4 +32,18 @@ public class Users {
 	
 	@Column(name = "enabled")
 	private boolean enabled;
+
+	public void setUsername(String username) {
+		this.username = username;
+	}
+
+	public void setPassword(String password) {
+		this.password = password;
+	}
+
+	public void setEnabled(boolean enabled) {
+		this.enabled = enabled;
+	}
+	
+	
 }
