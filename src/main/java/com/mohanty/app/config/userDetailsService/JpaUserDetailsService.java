@@ -1,4 +1,4 @@
-package com.mohanty.app.config;
+package com.mohanty.app.config.userDetailsService;
 
 import java.util.Optional;
 
@@ -7,6 +7,7 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
+import com.mohanty.app.config.SecurityUser;
 import com.mohanty.app.entity.Users;
 import com.mohanty.app.repository.UsersRepository;
 

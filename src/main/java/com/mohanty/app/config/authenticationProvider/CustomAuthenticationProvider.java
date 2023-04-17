@@ -1,4 +1,4 @@
-package com.mohanty.app.config;
+package com.mohanty.app.config.authenticationProvider;
 
 import org.springframework.security.authentication.AuthenticationProvider;
 import org.springframework.security.authentication.BadCredentialsException;
