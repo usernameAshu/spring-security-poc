@@ -3,7 +3,7 @@ package com.mohanty.app.service;
 import org.springframework.security.provisioning.JdbcUserDetailsManager;
 import org.springframework.stereotype.Service;
 
-import com.mohanty.app.config.SecurityUser;
+import com.mohanty.app.config.userDetail.SecurityUser;
 
 @Service
 public class SecurityAppService {

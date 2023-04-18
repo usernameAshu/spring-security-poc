@@ -1,4 +1,4 @@
-package com.mohanty.app.config;
+package com.mohanty.app.config.userDetail;
 
 import java.util.ArrayList;
 import java.util.Collection;

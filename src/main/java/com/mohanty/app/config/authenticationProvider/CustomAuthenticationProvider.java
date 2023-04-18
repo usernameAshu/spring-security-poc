@@ -10,6 +10,8 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Component;
 
+import com.mohanty.app.config.authentication.CustomAuthenticationToken;
+
 import lombok.AllArgsConstructor;
 
 @Component
@@ -32,6 +34,7 @@ public class CustomAuthenticationProvider implements AuthenticationProvider {
 			return null;
 		}
 		
+		//Credentials entered by user
 		String username = authentication.getName();
 		String secret = String.valueOf(authentication.getCredentials());
 		
@@ -51,7 +54,9 @@ public class CustomAuthenticationProvider implements AuthenticationProvider {
 	@Override
 	public boolean supports(Class<?> authentication) {
 		// TODO Auto-generated method stub
-		return UsernamePasswordAuthenticationToken.class.equals(authentication);
+//		return UsernamePasswordAuthenticationToken.class.equals(authentication);
+		return CustomAuthenticationToken.class.equals(authentication);
 	}
-
+	
+	
 }

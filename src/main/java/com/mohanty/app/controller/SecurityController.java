@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.mohanty.app.config.SecurityUser;
+import com.mohanty.app.config.userDetail.SecurityUser;
 import com.mohanty.app.entity.Users;
 import com.mohanty.app.service.SecurityAppService;
 

@@ -7,14 +7,14 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
-import com.mohanty.app.config.SecurityUser;
+import com.mohanty.app.config.userDetail.SecurityUser;
 import com.mohanty.app.entity.Users;
 import com.mohanty.app.repository.UsersRepository;
 
 import lombok.AllArgsConstructor;
 
 @AllArgsConstructor
-public class JpaUserDetailsService implements UserDetailsService {
+public class CustomUserDetailsService implements UserDetailsService {
 
 	private final UsersRepository usersRepository;
 	private final PasswordEncoder passwordEncoder;
