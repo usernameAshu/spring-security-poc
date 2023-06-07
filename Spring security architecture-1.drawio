@@ -1,4 +1,4 @@
-<mxfile host="Electron" modified="2023-05-26T10:14:23.649Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.1.2 Chrome/106.0.5249.199 Electron/21.4.3 Safari/537.36" etag="A-5C9VWEnQkW8UCcxdKD" version="21.1.2" type="device" pages="2">
+<mxfile host="Electron" modified="2023-06-07T06:46:24.538Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.1.2 Chrome/106.0.5249.199 Electron/21.4.3 Safari/537.36" etag="WeR9l4PNwd1_dUSKDUzL" version="21.1.2" type="device" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="architecture flow">
     <mxGraphModel dx="2103" dy="606" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -290,19 +290,19 @@
         <mxCell id="Wy9raJPU3HNqaYIyyDix-1" value="&lt;h1&gt;Spring Security code flow&lt;/h1&gt;&lt;p&gt;Code flow of the project: &lt;b&gt;two-factor-auth&lt;/b&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="115" y="50" width="310" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="KeeJ4AFskf9lS32YRy0w-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Wy9raJPU3HNqaYIyyDix-2" target="KeeJ4AFskf9lS32YRy0w-1">
+        <mxCell id="KeeJ4AFskf9lS32YRy0w-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Wy9raJPU3HNqaYIyyDix-2" target="KeeJ4AFskf9lS32YRy0w-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Wy9raJPU3HNqaYIyyDix-2" value="AppSecurityConfig" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="60" y="230" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="KeeJ4AFskf9lS32YRy0w-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KeeJ4AFskf9lS32YRy0w-1" target="KeeJ4AFskf9lS32YRy0w-3">
+        <mxCell id="KeeJ4AFskf9lS32YRy0w-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="KeeJ4AFskf9lS32YRy0w-1" target="KeeJ4AFskf9lS32YRy0w-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KeeJ4AFskf9lS32YRy0w-1" value="GET request from Postman" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="KeeJ4AFskf9lS32YRy0w-1" value="GET request from Postman" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="260" y="230" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="KeeJ4AFskf9lS32YRy0w-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KeeJ4AFskf9lS32YRy0w-3" target="KeeJ4AFskf9lS32YRy0w-7">
+        <mxCell id="KeeJ4AFskf9lS32YRy0w-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="KeeJ4AFskf9lS32YRy0w-3" target="KeeJ4AFskf9lS32YRy0w-7" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="490" y="420" />
@@ -310,7 +310,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="KeeJ4AFskf9lS32YRy0w-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic" edge="1" parent="1" source="KeeJ4AFskf9lS32YRy0w-3" target="KeeJ4AFskf9lS32YRy0w-9">
+        <mxCell id="KeeJ4AFskf9lS32YRy0w-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic" parent="1" source="KeeJ4AFskf9lS32YRy0w-3" target="KeeJ4AFskf9lS32YRy0w-9" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="490" y="420" />
@@ -318,22 +318,22 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="KeeJ4AFskf9lS32YRy0w-3" value="CustomAuthenticationFilter" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="KeeJ4AFskf9lS32YRy0w-3" value="CustomAuthenticationFilter" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="240" y="390" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="KeeJ4AFskf9lS32YRy0w-5" value="Request is intercepted by custom filter" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="KeeJ4AFskf9lS32YRy0w-5" value="Request is intercepted by custom filter" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="210" y="350" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="KeeJ4AFskf9lS32YRy0w-7" value="CustomUserAuthenticationToken" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="KeeJ4AFskf9lS32YRy0w-7" value="CustomUserAuthenticationToken" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="520" y="330" width="210" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="KeeJ4AFskf9lS32YRy0w-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KeeJ4AFskf9lS32YRy0w-9" target="KeeJ4AFskf9lS32YRy0w-11">
+        <mxCell id="KeeJ4AFskf9lS32YRy0w-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="KeeJ4AFskf9lS32YRy0w-9" target="KeeJ4AFskf9lS32YRy0w-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KeeJ4AFskf9lS32YRy0w-9" value="AuthenticationManager" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="KeeJ4AFskf9lS32YRy0w-9" value="AuthenticationManager" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="520" y="420" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="KeeJ4AFskf9lS32YRy0w-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic" edge="1" parent="1" source="KeeJ4AFskf9lS32YRy0w-11" target="KeeJ4AFskf9lS32YRy0w-13">
+        <mxCell id="KeeJ4AFskf9lS32YRy0w-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic" parent="1" source="KeeJ4AFskf9lS32YRy0w-11" target="KeeJ4AFskf9lS32YRy0w-13" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="840" y="670" />
@@ -341,43 +341,43 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="KeeJ4AFskf9lS32YRy0w-11" value="CustomAuthProvider" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="KeeJ4AFskf9lS32YRy0w-11" value="CustomAuthProvider" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="520" y="640" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="KeeJ4AFskf9lS32YRy0w-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic" edge="1" parent="1" source="KeeJ4AFskf9lS32YRy0w-13" target="KeeJ4AFskf9lS32YRy0w-15">
+        <mxCell id="KeeJ4AFskf9lS32YRy0w-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic" parent="1" source="KeeJ4AFskf9lS32YRy0w-13" target="KeeJ4AFskf9lS32YRy0w-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KeeJ4AFskf9lS32YRy0w-13" value="UserDetailsService&lt;br&gt;-loadUserByUsername(username)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="KeeJ4AFskf9lS32YRy0w-13" value="UserDetailsService&lt;br&gt;-loadUserByUsername(username)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="890" y="560" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="KeeJ4AFskf9lS32YRy0w-15" value="JdbcDaoImpl" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="KeeJ4AFskf9lS32YRy0w-15" value="JdbcDaoImpl" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="890" y="720" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="KeeJ4AFskf9lS32YRy0w-17" value="PasswordEncoder" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="KeeJ4AFskf9lS32YRy0w-17" value="PasswordEncoder" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="920" y="490" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="KeeJ4AFskf9lS32YRy0w-19" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="KeeJ4AFskf9lS32YRy0w-19" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="190" y="230" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="KeeJ4AFskf9lS32YRy0w-20" value="2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="KeeJ4AFskf9lS32YRy0w-20" value="2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="320" y="330" width="30" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="KeeJ4AFskf9lS32YRy0w-21" value="3" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="KeeJ4AFskf9lS32YRy0w-21" value="3" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="470" y="330" width="30" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="KeeJ4AFskf9lS32YRy0w-22" value="4" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="KeeJ4AFskf9lS32YRy0w-22" value="4" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="480" y="455" width="30" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="KeeJ4AFskf9lS32YRy0w-23" value="5. Authentication object" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="KeeJ4AFskf9lS32YRy0w-23" value="5. Authentication object" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="580" y="610" width="100" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="KeeJ4AFskf9lS32YRy0w-24" value="6. Requests to load the user details" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="KeeJ4AFskf9lS32YRy0w-24" value="6. Requests to load the user details" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="740" y="645" width="110" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="KeeJ4AFskf9lS32YRy0w-26" value="9. Requests to match the password with the secret" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="KeeJ4AFskf9lS32YRy0w-26" value="9. Requests to match the password with the secret" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="650" y="550" width="140" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="KeeJ4AFskf9lS32YRy0w-28" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="KeeJ4AFskf9lS32YRy0w-11" target="KeeJ4AFskf9lS32YRy0w-17">
+        <mxCell id="KeeJ4AFskf9lS32YRy0w-28" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="KeeJ4AFskf9lS32YRy0w-11" target="KeeJ4AFskf9lS32YRy0w-17" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="650" y="580" as="sourcePoint" />
             <mxPoint x="700" y="530" as="targetPoint" />
@@ -387,60 +387,60 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="KeeJ4AFskf9lS32YRy0w-30" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="KeeJ4AFskf9lS32YRy0w-11" target="KeeJ4AFskf9lS32YRy0w-9">
+        <mxCell id="KeeJ4AFskf9lS32YRy0w-30" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" parent="1" source="KeeJ4AFskf9lS32YRy0w-11" target="KeeJ4AFskf9lS32YRy0w-9" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="620" y="580" as="sourcePoint" />
             <mxPoint x="670" y="530" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KeeJ4AFskf9lS32YRy0w-31" value="9. Returns a&amp;nbsp;Authentication &lt;br&gt;implemented&amp;nbsp;&lt;br&gt;&amp;nbsp;object" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="KeeJ4AFskf9lS32YRy0w-31" value="9. Returns a&amp;nbsp; successfully Authentication&amp;nbsp;&lt;br&gt;&amp;nbsp;object" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="410" y="510" width="220" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="KeeJ4AFskf9lS32YRy0w-34" value="10. Authentication&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;implemented&amp;nbsp;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp;object" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="KeeJ4AFskf9lS32YRy0w-34" value="10. Authentication&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;implemented&amp;nbsp;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp;object" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="395" y="380" width="95" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="KeeJ4AFskf9lS32YRy0w-35" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="KeeJ4AFskf9lS32YRy0w-3" target="KeeJ4AFskf9lS32YRy0w-36">
+        <mxCell id="KeeJ4AFskf9lS32YRy0w-35" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="KeeJ4AFskf9lS32YRy0w-3" target="KeeJ4AFskf9lS32YRy0w-36" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="295" y="600" as="sourcePoint" />
             <mxPoint x="320" y="600" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KeeJ4AFskf9lS32YRy0w-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KeeJ4AFskf9lS32YRy0w-36" target="KeeJ4AFskf9lS32YRy0w-47">
+        <mxCell id="KeeJ4AFskf9lS32YRy0w-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="KeeJ4AFskf9lS32YRy0w-36" target="KeeJ4AFskf9lS32YRy0w-47" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KeeJ4AFskf9lS32YRy0w-36" value="11. Custom filter checks if returned Authentication object &lt;b&gt;is authenticated&lt;/b&gt;. &lt;br&gt;If True , user credentials are added to the &lt;b&gt;Security context&lt;/b&gt; and then filter delegates the process to the next steps&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="KeeJ4AFskf9lS32YRy0w-36" value="11. Custom filter checks if returned Authentication object &lt;b&gt;is authenticated&lt;/b&gt;. &lt;br&gt;If True , user credentials are added to the &lt;b&gt;Security context&lt;/b&gt; and then filter delegates the process to the next steps&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="235" y="610" width="170" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="KeeJ4AFskf9lS32YRy0w-37" value="&lt;h1&gt;Detailed flow description&lt;/h1&gt;&lt;p&gt;AppSecurityConfig file - loads all the configuration classes&amp;nbsp;&lt;/p&gt;&lt;p&gt;&amp;nbsp;-&amp;gt; example: loads the JdbcUserDetailsManager with datasource&lt;/p&gt;&lt;p&gt;Controller(servlet) waiting for the request&amp;nbsp;&lt;/p&gt;&lt;p&gt;Request is triggered from Postman&amp;nbsp;&lt;/p&gt;&lt;p&gt;CustomAuthenticationFilter: Intercepts the request&amp;nbsp;&lt;/p&gt;&lt;p&gt;CustomUserAuthenticationToken : called with username, password &amp;amp; roles&amp;nbsp;&lt;/p&gt;&lt;p&gt;Gets back a CustomUserAuthenticationToken (implements Authentication) object in 	CustomAuthenticationFilter, which has setAuthenticated as True&amp;nbsp;&lt;/p&gt;&lt;p&gt;Requests AuthenticationManager to authenticate the CustomUserAuthenticationToken object.&lt;/p&gt;&lt;p&gt;CustomAuthProvider : control is in the authenticate method with parameter as the&amp;nbsp; Authentication object&amp;nbsp;&lt;/p&gt;&lt;p&gt;UserDetails is loaded by calling the loadUserByUsername method&amp;nbsp;&lt;/p&gt;&lt;p&gt;&amp;nbsp;(internally calls the JdbcDaoImpl -&amp;gt; loadUserByUsername() )&lt;/p&gt;&lt;p&gt;Then PasswordEncoder matches the UserDetails password with the password provided by Authentication object&amp;nbsp;&lt;/p&gt;&lt;p&gt;If matches then it passes a UsernamePasswordAuthenticationToken (implements Authentication)&lt;/p&gt;&lt;p&gt;CustomAuthenticationFilter : This result Authentication is passed here&lt;/p&gt;&lt;p&gt;If the isAuthenticated() is true , then this authentication object is added to the security context&amp;nbsp;&lt;/p&gt;&lt;p&gt;Filterchain is delegated to go with the next steps&amp;nbsp;&lt;/p&gt;&lt;p&gt;AppController : intercepts the / endpoint and displays the user to is logging in.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Tutorial link:&lt;/p&gt;&lt;p&gt;https://www.youtube.com/watch?v=SOPvPT4FH3Y&amp;amp;list=PLEocw3gLFc8XRaRBZkhBEZ_R3tmvfkWZz&amp;amp;index=6&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="KeeJ4AFskf9lS32YRy0w-37" value="&lt;h1&gt;Detailed flow description&lt;/h1&gt;&lt;p&gt;AppSecurityConfig file - loads all the configuration classes&amp;nbsp;&lt;/p&gt;&lt;p&gt;&amp;nbsp;-&amp;gt; example: loads the JdbcUserDetailsManager with datasource&lt;/p&gt;&lt;p&gt;Controller(servlet) waiting for the request&amp;nbsp;&lt;/p&gt;&lt;p&gt;Request is triggered from Postman&amp;nbsp;&lt;/p&gt;&lt;p&gt;CustomAuthenticationFilter: Intercepts the request&amp;nbsp;&lt;/p&gt;&lt;p&gt;CustomUserAuthenticationToken : called with username, password &amp;amp; roles&amp;nbsp;&lt;/p&gt;&lt;p&gt;Gets back a CustomUserAuthenticationToken (implements Authentication) object in  CustomAuthenticationFilter, which has setAuthenticated as True&amp;nbsp;&lt;/p&gt;&lt;p&gt;Requests AuthenticationManager to authenticate the CustomUserAuthenticationToken object.&lt;/p&gt;&lt;p&gt;CustomAuthProvider : control is in the authenticate method with parameter as the&amp;nbsp; Authentication object&amp;nbsp;&lt;/p&gt;&lt;p&gt;UserDetails is loaded by calling the loadUserByUsername method&amp;nbsp;&lt;/p&gt;&lt;p&gt;&amp;nbsp;(internally calls the JdbcDaoImpl -&amp;gt; loadUserByUsername() )&lt;/p&gt;&lt;p&gt;Then PasswordEncoder matches the UserDetails password with the password provided by Authentication object&amp;nbsp;&lt;/p&gt;&lt;p&gt;If matches then it passes a UsernamePasswordAuthenticationToken (implements Authentication)&lt;/p&gt;&lt;p&gt;CustomAuthenticationFilter : This result Authentication is passed here&lt;/p&gt;&lt;p&gt;If the isAuthenticated() is true , then this authentication object is added to the security context&amp;nbsp;&lt;/p&gt;&lt;p&gt;Filterchain is delegated to go with the next steps&amp;nbsp;&lt;/p&gt;&lt;p&gt;AppController : intercepts the / endpoint and displays the user to is logging in.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Tutorial link:&lt;/p&gt;&lt;p&gt;https://www.youtube.com/watch?v=SOPvPT4FH3Y&amp;amp;list=PLEocw3gLFc8XRaRBZkhBEZ_R3tmvfkWZz&amp;amp;index=6&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="60" y="1250" width="980" height="630" as="geometry" />
         </mxCell>
-        <mxCell id="KeeJ4AFskf9lS32YRy0w-38" value="&amp;nbsp;Creates a &lt;b&gt;CustomUserAuthenticationToken &lt;/b&gt;by passing User , Password and Granted-role" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="KeeJ4AFskf9lS32YRy0w-38" value="&amp;nbsp;Creates a &lt;b&gt;CustomUserAuthenticationToken &lt;/b&gt;by passing User , Password and Granted-role" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="510" y="280" width="250" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="KeeJ4AFskf9lS32YRy0w-41" value="This class loads the user infrormation from the database &amp;amp; wraps it into a UserDetails object" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="KeeJ4AFskf9lS32YRy0w-41" value="This class loads the user infrormation from the database &amp;amp; wraps it into a UserDetails object" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="890" y="790" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="KeeJ4AFskf9lS32YRy0w-42" value="When application context loads up, Spring calls the config class to instantiate the beans&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="KeeJ4AFskf9lS32YRy0w-42" value="When application context loads up, Spring calls the config class to instantiate the beans&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="30" y="270" width="160" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="KeeJ4AFskf9lS32YRy0w-43" value="7" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="KeeJ4AFskf9lS32YRy0w-43" value="7" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="985" y="665" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="KeeJ4AFskf9lS32YRy0w-44" value="This class matches the &lt;b&gt;secret &lt;/b&gt;of the Authentication object with the &lt;b&gt;Password &lt;/b&gt;of the UserDetails object" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="KeeJ4AFskf9lS32YRy0w-44" value="This class matches the &lt;b&gt;secret &lt;/b&gt;of the Authentication object with the &lt;b&gt;Password &lt;/b&gt;of the UserDetails object" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="920" y="450" width="215" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="KeeJ4AFskf9lS32YRy0w-45" value="8. Returns the UserDetails object" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="KeeJ4AFskf9lS32YRy0w-45" value="8. Returns the UserDetails object" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="700" y="670" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="KeeJ4AFskf9lS32YRy0w-46" value="Does the authentication work, it accepts the User information sent in the request, and matches that with the User details in the database. &lt;br&gt;If matched returns a &lt;b&gt;UsernamePasswordAuthenticationToken &lt;/b&gt;object.&lt;br&gt;Else throws &lt;b&gt;BadCredentialsException&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="KeeJ4AFskf9lS32YRy0w-46" value="Does the authentication work, it accepts the User information sent in the request, and matches that with the User details in the database. &lt;br&gt;If matched returns a &lt;b&gt;UsernamePasswordAuthenticationToken &lt;/b&gt;object.&lt;br&gt;Else throws &lt;b&gt;BadCredentialsException&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="460" y="710" width="300" height="85" as="geometry" />
         </mxCell>
-        <mxCell id="KeeJ4AFskf9lS32YRy0w-47" value="AppController&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="KeeJ4AFskf9lS32YRy0w-47" value="AppController&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="260" y="890" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="KeeJ4AFskf9lS32YRy0w-49" value="12. Request gets intercepted by controller" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="KeeJ4AFskf9lS32YRy0w-49" value="12. Request gets intercepted by controller" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="215" y="810" width="110" height="70" as="geometry" />
         </mxCell>
       </root>
